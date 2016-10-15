@@ -1,4 +1,34 @@
 <resources>
     <string name="app_name">MasterDetailFlow</string>
     <string name="title_car_detail">Car Detail</string>
+    <!-- Spinner String arrays -->
+    <string-array name="lc_model">
+        <item>LC82911</item>
+        <item>LC82911M</item>
+        <item>LC82311</item>
+        <item>LC82311M</item>
+    </string-array>
+    <!-- todo Think of a better way to allow all body numbers. It's really only the last letter that matters. Maybe just have a spinner for the last letter??? -->
+    <string-array name="lc_body">
+        <item>This </item>
+        <item>Is not </item>
+        <item>going </item>
+        <item>to work</item>
+    </string-array>
+
+    <string-array name="lc_trim">
+        <item>1842–40X</item>
+        <item>1842–40Y</item>
+        <item>1842–55Y</item>
+    </string-array>
+
+    <string-array name="lc_paint">
+        <item>567–13137</item>
+        <item>567–13138</item>
+    </string-array>
+    <!-- todo Check limitations of roof options. At least just use the paint array. At best, allow for the vinyl roof colours if possible. -->
+    <string-array name="lc_top">
+        <item>567–13137</item>
+        <item>567–13138</item>
+    </string-array>
 </resources>
